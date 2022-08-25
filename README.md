@@ -1,6 +1,6 @@
 <h1>About the app</h1>
 
-iOS project realized with **SwiftUI** and **embed Apple Pay feature**.<br>
+iOS project realized with **SwiftUI** and embed **Apple Pay** feature.<br>
 
 <p float="center">
 <img src="https://user-images.githubusercontent.com/6122888/186755793-5c18a64e-4300-4be4-ad78-879834454acb.png" width="270" height="550">
