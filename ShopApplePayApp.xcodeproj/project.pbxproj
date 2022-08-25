@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DE18891128B806AB005AE18F /* PaymentButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE18891028B806AB005AE18F /* PaymentButton.swift */; };
+		DE18891328B80944005AE18F /* PaymentHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE18891228B80944005AE18F /* PaymentHandler.swift */; };
 		DE2369DE28B686510024904D /* ShopApplePayAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE2369DD28B686510024904D /* ShopApplePayAppApp.swift */; };
 		DE2369E028B686510024904D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE2369DF28B686510024904D /* ContentView.swift */; };
 		DE2369E228B686520024904D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DE2369E128B686520024904D /* Assets.xcassets */; };
@@ -20,6 +22,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		DE18891028B806AB005AE18F /* PaymentButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaymentButton.swift; sourceTree = "<group>"; };
+		DE18891228B80944005AE18F /* PaymentHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaymentHandler.swift; sourceTree = "<group>"; };
 		DE2369DA28B686510024904D /* ShopApplePayApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ShopApplePayApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DE2369DD28B686510024904D /* ShopApplePayAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShopApplePayAppApp.swift; sourceTree = "<group>"; };
 		DE2369DF28B686510024904D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -70,6 +74,7 @@
 				DE2369E128B686520024904D /* Assets.xcassets */,
 				DE2369E328B686520024904D /* Preview Content */,
 				DE2369F628B68EDE0024904D /* CartManager.swift */,
+				DE18891228B80944005AE18F /* PaymentHandler.swift */,
 			);
 			path = ShopApplePayApp;
 			sourceTree = "<group>";
@@ -96,6 +101,7 @@
 				DE2369EF28B688C90024904D /* ProductCard.swift */,
 				DE2369F228B68CCC0024904D /* CardButton.swift */,
 				DE2369F828B6C8A70024904D /* ProductRow.swift */,
+				DE18891028B806AB005AE18F /* PaymentButton.swift */,
 			);
 			path = Components;
 			sourceTree = "<group>";
@@ -179,6 +185,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DE18891128B806AB005AE18F /* PaymentButton.swift in Sources */,
+				DE18891328B80944005AE18F /* PaymentHandler.swift in Sources */,
 				DE2369F528B68DBC0024904D /* CartView.swift in Sources */,
 				DE2369E028B686510024904D /* ContentView.swift in Sources */,
 				DE2369F728B68EDE0024904D /* CartManager.swift in Sources */,
